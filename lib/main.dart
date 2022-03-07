@@ -6,6 +6,7 @@ void main() {
       appBar: AppBar(
         title: Text('my first app'),
         centerTitle: true,
+        backgroundColor: Colors.green[600],
       ),
       body: Center(
         child: Text('Hello my friend'),

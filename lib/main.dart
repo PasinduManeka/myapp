@@ -14,6 +14,7 @@ void main() {
       floatingActionButton: FloatingActionButton(
         onPressed: () {  },
         child: Text('click'),
+        backgroundColor: Colors.green[600],
       ),
     )
   ));

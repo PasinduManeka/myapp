@@ -9,7 +9,15 @@ void main() {
         backgroundColor: Colors.green[600],
       ),
       body: Center(
-        child: Text('Hello my friend'),
+        child: Text(
+          'Hello Mates!',
+          style: TextStyle(
+            fontSize: 20.0,
+            fontWeight: FontWeight.bold,
+            letterSpacing: 2.0,
+            color: Colors.grey[600],
+          ),
+        ),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {  },

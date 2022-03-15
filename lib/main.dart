@@ -25,7 +25,19 @@ void main() {
         child: Text('click'),
         backgroundColor: Colors.green[600],
       ),
-    )
+    ),
   ));
+
+
+
+  
+  
+}
+
+class Test extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Container();
+  }
 }
 

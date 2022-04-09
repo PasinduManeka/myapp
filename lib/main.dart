@@ -26,6 +26,7 @@ class Home extends StatelessWidget {
             print('You Clicked me!');
           },
           child: Text('click me'),
+          style: TextButton.styleFrom(primary: Colors.green),
         ),
       ),
       floatingActionButton: FloatingActionButton(

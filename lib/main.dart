@@ -17,13 +17,11 @@ class Home extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text('my first app'),
-        centerTitle: true, 
+        centerTitle: true,
         backgroundColor: Colors.green[600],
       ),
       body: Center(
-        child: Image(
-          image:NetworkImage('https://images.unsplash.com/photo-1572973687274-74a2b3db827c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=454&q=80'),
-        ),
+        child: Image.asset('assets/space2.jpg'),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {  },

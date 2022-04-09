@@ -21,11 +21,12 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.green[600],
       ),
       body: Center(
-        child: ElevatedButton(
+        child: TextButton(
           onPressed: () {
-            print('You Clicked');
+            print('You Clicked me!');
           },
           child: Text('click me'),
+
         ),
       ),
       floatingActionButton: FloatingActionButton(

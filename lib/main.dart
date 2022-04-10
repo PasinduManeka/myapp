@@ -28,7 +28,7 @@ class Home extends StatelessWidget {
           ),
           label: Text('Mail me'),
           style: ElevatedButton.styleFrom(
-            primary: Colors.amber,
+            primary: Colors.blue,
           ),
         )
       ),

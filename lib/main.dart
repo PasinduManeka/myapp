@@ -22,6 +22,7 @@ class Home extends StatelessWidget {
       ),
       body: Row(
         mainAxisAlignment: MainAxisAlignment.spaceAround,
+        crossAxisAlignment: CrossAxisAlignment.start,
         children: <Widget>[
           Container(
             child:ElevatedButton(

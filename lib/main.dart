@@ -21,13 +21,13 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.green[600],
       ),
       body: Center(
-        child: TextButton(
-          onPressed: () {
-            print('You Clicked me!');
-          },
-          child: Text('click me'),
-          style: TextButton.styleFrom(primary: Colors.green),
-        ),
+        child: ElevatedButton(
+          onPressed: (){},
+          child: Text('Click me'),
+          style: ElevatedButton.styleFrom(
+            primary: Colors.amber,
+          ),
+        )
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {  },

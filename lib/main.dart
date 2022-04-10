@@ -21,9 +21,12 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.green[600],
       ),
       body: Center(
-        child: ElevatedButton(
+        child: ElevatedButton.icon(
           onPressed: (){},
-          child: Text('Click me'),
+          icon:Icon(
+            Icons.mail,
+          ),
+          label: Text('Mail me'),
           style: ElevatedButton.styleFrom(
             primary: Colors.amber,
           ),

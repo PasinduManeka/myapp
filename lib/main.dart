@@ -20,12 +20,30 @@ class Home extends StatelessWidget {
         centerTitle: true,
         backgroundColor: Colors.green[600],
       ),
-      body: Padding(
-        padding: EdgeInsets.all(90.0),
-        child: Container(
-          child:Text('Hi'),
-          color: Colors.grey,
-        ),
+      body: Row(
+        children: <Widget>[
+          Container(
+            child:ElevatedButton(
+              onPressed: (){},
+              child: Text('Click me'),
+              style: ElevatedButton.styleFrom(
+                primary: Colors.green
+              ),
+            )
+          ),
+          Container(
+            child: TextButton(
+              onPressed: (){},
+              child: Text('You can click me!'),
+              style: TextButton.styleFrom(
+                backgroundColor: Colors.grey,
+              ),
+            ),
+          ),
+          Container(
+            child: Text('Welcom to the Party'),
+          )
+        ],
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {  },

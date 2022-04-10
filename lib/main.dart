@@ -22,9 +22,11 @@ class Home extends StatelessWidget {
       ),
       body: Row(
         mainAxisAlignment: MainAxisAlignment.spaceAround,
-        crossAxisAlignment: CrossAxisAlignment.start,
+        crossAxisAlignment: CrossAxisAlignment.center,
         children: <Widget>[
           Container(
+            color: Colors.grey,
+            padding: EdgeInsets.all(30.0),
             child:ElevatedButton(
               onPressed: (){},
               child: Text('Click me'),
@@ -33,13 +35,11 @@ class Home extends StatelessWidget {
               ),
             )
           ),
-          Container(
-            child: TextButton(
-              onPressed: (){},
-              child: Text('You can click me!'),
-              style: TextButton.styleFrom(
-                backgroundColor: Colors.grey,
-              ),
+          TextButton(
+            onPressed: (){},
+            child: Text('You can click me!'),
+            style: TextButton.styleFrom(
+              backgroundColor: Colors.grey,
             ),
           ),
           Container(

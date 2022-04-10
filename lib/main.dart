@@ -21,6 +21,7 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.green[600],
       ),
       body: Row(
+        mainAxisAlignment: MainAxisAlignment.spaceAround,
         children: <Widget>[
           Container(
             child:ElevatedButton(

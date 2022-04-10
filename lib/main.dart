@@ -39,8 +39,10 @@ class Home extends StatelessWidget {
             onPressed: (){},
             child: Text('You can click me!'),
             style: TextButton.styleFrom(
-              backgroundColor: Colors.grey,
+              backgroundColor: Colors.green,
+              primary: Colors.white
             ),
+
           ),
           Container(
             child: Text('Welcom to the Party'),

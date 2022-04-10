@@ -22,27 +22,17 @@ class Home extends StatelessWidget {
       ),
       body: Row(
         mainAxisAlignment: MainAxisAlignment.spaceAround,
+        crossAxisAlignment: CrossAxisAlignment.baseline,
+        textBaseline: TextBaseline.alphabetic,
         children: <Widget>[
           Container(
-            child:ElevatedButton(
-              onPressed: (){},
-              child: Text('Click me'),
-              style: ElevatedButton.styleFrom(
-                primary: Colors.green
-              ),
-            )
+            child:Text('Dark side!')
           ),
           Container(
-            child: TextButton(
-              onPressed: (){},
-              child: Text('You can click me!'),
-              style: TextButton.styleFrom(
-                backgroundColor: Colors.grey,
-              ),
-            ),
+            child: Text('Done!')
           ),
           Container(
-            child: Text('Welcom to the Party'),
+            child: Text('Welcom to the Party!'),
           )
         ],
       ),
